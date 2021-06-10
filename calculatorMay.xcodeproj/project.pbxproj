@@ -16,6 +16,7 @@
 		15E294F926670A3C00827597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E294F826670A3C00827597 /* main.m */; };
 		15E2950326670A3C00827597 /* calculatorMayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E2950226670A3C00827597 /* calculatorMayTests.m */; };
 		15E2950E26670A3C00827597 /* calculatorMayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E2950D26670A3C00827597 /* calculatorMayUITests.m */; };
+		15E92994266AA48B00560875 /* calculatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E92993266AA48B00560875 /* calculatorController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		15E2950926670A3C00827597 /* calculatorMayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorMayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E2950D26670A3C00827597 /* calculatorMayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorMayUITests.m; sourceTree = "<group>"; };
 		15E2950F26670A3C00827597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E92992266AA48B00560875 /* calculatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculatorController.h; sourceTree = "<group>"; };
+		15E92993266AA48B00560875 /* calculatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculatorController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				15E294F426670A3C00827597 /* LaunchScreen.storyboard */,
 				15E294F726670A3C00827597 /* Info.plist */,
 				15E294F826670A3C00827597 /* main.m */,
+				15E92992266AA48B00560875 /* calculatorController.h */,
+				15E92993266AA48B00560875 /* calculatorController.m */,
 			);
 			path = calculatorMay;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E294EE26670A3B00827597 /* ViewController.m in Sources */,
+				15E92994266AA48B00560875 /* calculatorController.m in Sources */,
 				15E294E826670A3B00827597 /* AppDelegate.m in Sources */,
 				15E294F926670A3C00827597 /* main.m in Sources */,
 				15E294EB26670A3B00827597 /* SceneDelegate.m in Sources */,
