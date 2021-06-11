@@ -22,6 +22,11 @@
     firstEntry = NULL;
     secondEntry = NULL;
     self.calculatorController = [[calculatorController alloc] init];
+    
+    _scrollview = [[UIScrollView alloc] initWithFrame:CGRectMake(8,79,637,770)];
+    [self.view addSubview:_scrollview];
+    [_scrollview setContentSize:CGSizeMake(_scrollview.bounds.size.width , _scrollview.bounds.size.height*1.2)];
+    [_scrollview addSubview:_stackView];
 }
 
 - (IBAction)equalPressed:(id)sender {

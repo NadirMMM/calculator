@@ -15,6 +15,8 @@
 }
 
 @property (strong, nonatomic) IBOutlet UILabel *labelOutput;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollview;
+@property (strong, nonatomic) IBOutlet UIStackView *stackView;
 
 - (IBAction)clearPressed:(id)sender;
 - (IBAction)equalPressed:(id)sender;
