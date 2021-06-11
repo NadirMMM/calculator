@@ -22,11 +22,13 @@
     firstEntry = NULL;
     secondEntry = NULL;
     self.calculatorController = [[calculatorController alloc] init];
-    
-    _scrollview = [[UIScrollView alloc] initWithFrame:CGRectMake(8,79,637,770)];
+    /*
+    _scrollview = [[UIScrollView alloc] initWithFrame:CGRectMake(0,0,600,600)];
     [self.view addSubview:_scrollview];
     [_scrollview setContentSize:CGSizeMake(_scrollview.bounds.size.width , _scrollview.bounds.size.height*1.2)];
+    [_scrollview setBackgroundColor: [UIColor whiteColor]];
     [_scrollview addSubview:_stackView];
+     */
 }
 
 - (IBAction)equalPressed:(id)sender {
